@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  background-image: url("./images/background.png");
+  background-size:100%;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background-image: url("./images/paper.png");
+  background-size:100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: #3e1d05 0px 0px 10px 2px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  border: none;
+  border-radius: 7px 0 0 7px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  width: 300px;
+  color: #434343;
+  box-shadow: #5555557a 0px 0px 7px 1px;
+
+}
+
+.todo-input::placeholder {
+  color: #b6b6b6;
+}
+
+.todo-btn {
+  background: red;
+  color: #fff;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  padding: 0.55rem;
+  cursor: pointer;
+  box-shadow: #e0dde7 0px 0px 10px 1px;
+}
+.update-btn {
+  background: #434343;
+  color: #fff;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  padding: 0.55rem;
+  cursor: pointer;
+  box-shadow: #e0dde7 0px 0px 10px 1px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  box-shadow: 0 0 10px -1px #e0dde7;
+  margin-bottom: 0.5rem;
+  /* cursor: pointer; */
+}
+p{
+  flex:2;
+  text-align: start;
+}
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #373737;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.completed {
+  color: #b6b6b6;
+  font-size: small;
+  text-decoration: line-through;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.edit-icon {
+  color: #b6b6b6;
+}
+.edit-icon :hover {
+  color: black;
+  transition: 0.2s;
+}
+.delete-icon {
+  color: #b6b6b6;
+}
+.delete-icon :hover {
+  color: black;
+  transition: 0.2s;
+}
+
+
+ 
