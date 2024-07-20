@@ -1,5 +1,5 @@
 # to-do-app
- Home Page
+ Welcome to the Home Page of my to-do-app
  
  ![todo-1](https://github.com/user-attachments/assets/c5fdab61-6413-4e45-bbde-9bce3ddb69d9)
  
